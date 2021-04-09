@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 services:
   vpn:
@@ -12,5 +12,3 @@ services:
     privileged: true
     hostname: ipsec-vpn-server
     container_name: ipsec-vpn-server
-    volumes:
-      - /lib/modules:/lib/modules:ro
